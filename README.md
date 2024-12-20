@@ -8,3 +8,5 @@ joined Arythq9
 joined AzarashiO3
 
 joined kuruminminzemi
+
+joined HashizumeJuri on 2024/12/20
