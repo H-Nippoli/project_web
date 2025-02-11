@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 200vh; /* スクロール領域を確保 */
+    background-color: #f9f9f9;
+  }
+  
+  #container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .char {
+    visibility: hidden; /* 初期状態は非表示 */
+  }
+  
+  .char.visible {
+    visibility: visible; /* 表示状態 */
+  }
+
+  
