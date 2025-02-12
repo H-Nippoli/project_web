@@ -3,13 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>外部テキストの読み込み</title>
+  <title>スクロールによるテキスト表示</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="container">
-    <div id="text"></div>
+
+  <div class="background">
+    <div class="text-content" id="text"></div>
   </div>
+
+  <div class="scroll-area">
+    <!-- ここにスクロール領域が配置されます -->
+  </div>
+
+  <button id="resize-button">エリアの割合を変更</button>
+
   <script src="script.js"></script>
 </body>
 </html>
