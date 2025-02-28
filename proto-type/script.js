@@ -67,8 +67,8 @@ document.addEventListener("DOMContentLoaded", function () {
           scrollArea.style.width = "70vw";   // 右エリアの幅を70%
         } else {
           // 左エリアを大きく、右エリアを小さく
-          background.style.width = "50vw";  // 左エリアの幅を50%
-          scrollArea.style.width = "50vw";  // 右エリアの幅を50%
+          background.style.width = "45vw";  // 左エリアの幅を50%
+          scrollArea.style.width = "55vw";  // 右エリアの幅を50%
         }
 
         // 状態を切り替え
